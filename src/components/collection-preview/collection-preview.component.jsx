@@ -4,7 +4,6 @@ import CollectionItem from "../collection-item/collection-item.component"
 import { Link } from "react-router-dom";
 
 export default function CollectionPreview({title, items, history}){
-    console.log("here's your history, boys", history)
 
     const firstFour = items.filter((item, index) => index < 4)
     
