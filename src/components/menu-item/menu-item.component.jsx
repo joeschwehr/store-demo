@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 const MenuItem = ({ title, imageUrl, size, match, history, linkUrl }) => {
 
     const handleClick = () => {
-        console.log(history.push(`${match.path}${linkUrl}`) )
+        history.push(`${match.path}${linkUrl}`)
     }
 
     return (
